@@ -37,7 +37,7 @@ Madrid · Barcelona · Valencia · Sevilla · Zaragoza · Málaga · Bilbao · M
 
 **Dijkstra** con cola de prioridad (min-heap).  
 Complejidad: `O((V + E) log V)`  
-Condición requerida: todos los pesos deben ser positivos ✅
+Condición requerida: todos los pesos deben ser positivos
 
 ---
 
@@ -60,14 +60,14 @@ pip install -r requirements.txt
 # 3. Ejecutar la aplicación
 python ruta_optima_españa.py
 ```
-
+> **Nota:** Si no tienes Git instalado, puedes descargar el código directamente desde GitHub haciendo click en el botón verde **"Code"** → **"Download ZIP"**.
 ---
 
 ## Uso de la Interfaz
 
 1. Seleccionar **ciudad de origen** en el menú desplegable
 2. Seleccionar **ciudad de destino**
-3. Presionar **▶ Calcular Ruta Óptima**
+3. Presionar **Calcular Ruta Óptima**
 4. Ver en pantalla:
    - Secuencia de ciudades de la ruta
    - Distancia total en km
@@ -79,10 +79,10 @@ python ruta_optima_españa.py
 ## Estructura del Repositorio
 
 ```
-📦 proyecto-rutas-españa
- ┣ 📄 ruta_optima_españa.py     # Código fuente principal
- ┣ 📄 requirements.txt          # Librerías necesarias
- ┗ 📄 README.md                 # Este archivo
+proyecto-rutas-españa
+ ┣ ruta_optima_españa.py     # Código fuente principal
+ ┣ requirements.txt          # Librerías necesarias
+ ┗ README.md                 # Este archivo
 ```
 
 ---
