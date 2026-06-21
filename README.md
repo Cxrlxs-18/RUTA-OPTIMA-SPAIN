@@ -1,11 +1,11 @@
-# 🗺️ Ruta Óptima entre Ciudades de España
+# Ruta Óptima entre Ciudades de España
 ### Proyecto Final — Matemática Discreta
 
 Aplicación en Python que modela una red de 15 ciudades de España mediante un **grafo ponderado** y calcula la **ruta óptima** entre dos ciudades usando el **algoritmo de Dijkstra**.
 
 ---
 
-## 👥 Integrantes
+## Integrantes
 
 | Nombres            | 
 |--------------------|
@@ -16,7 +16,7 @@ Aplicación en Python que modela una red de 15 ciudades de España mediante un *
 
 ---
 
-## 📌 Descripción del Problema
+## Descripción del Problema
 
 Se construye un grafo ponderado **G = (V, E, w)** donde:
 - **V** → 15 ciudades de España (vértices)
@@ -27,13 +27,13 @@ El objetivo es encontrar el camino de **menor distancia total** entre una ciudad
 
 ---
 
-## 🏙️ Ciudades Incluidas
+## Ciudades Incluidas
 
 Madrid · Barcelona · Valencia · Sevilla · Zaragoza · Málaga · Bilbao · Murcia · Valladolid · Alicante · Córdoba · Granada · San Sebastián · Santander · Toledo
 
 ---
 
-## ⚙️ Algoritmo Utilizado
+## Algoritmo Utilizado
 
 **Dijkstra** con cola de prioridad (min-heap).  
 Complejidad: `O((V + E) log V)`  
@@ -41,19 +41,18 @@ Condición requerida: todos los pesos deben ser positivos ✅
 
 ---
 
-## 💻 Requisitos
+## Requisitos
 
 - Python 3.8 o superior
 - matplotlib
 
 ---
 
-## 🚀 Instalación y Ejecución
+## Instalación y Ejecución
 
 ```bash
 # 1. Clonar el repositorio
-git clone https://github.com/[usuario]/[repositorio].git
-cd [repositorio]
+git clone https://github.com/Cxrlxs-18/RUTA-OPTIMA-SPAIN.git
 
 # 2. Instalar dependencias
 pip install -r requirements.txt
@@ -64,7 +63,7 @@ python ruta_optima_españa.py
 
 ---
 
-## 🖥️ Uso de la Interfaz
+## Uso de la Interfaz
 
 1. Seleccionar **ciudad de origen** en el menú desplegable
 2. Seleccionar **ciudad de destino**
@@ -77,7 +76,7 @@ python ruta_optima_españa.py
 
 ---
 
-## 📁 Estructura del Repositorio
+## Estructura del Repositorio
 
 ```
 📦 proyecto-rutas-españa
@@ -88,7 +87,7 @@ python ruta_optima_españa.py
 
 ---
 
-## 📊 Librerías Utilizadas
+## Librerías Utilizadas
 
 | Librería | Uso |
 |----------|-----|
@@ -99,7 +98,7 @@ python ruta_optima_españa.py
 
 ---
 
-## 🧪 Ejemplos de Rutas
+## Ejemplos de Rutas
 
 | Origen | Destino                                   | Ruta                                                         | Distancia |
 |--------|-------------------------------------------|--------------------------------------------------------------|-----------|
@@ -109,7 +108,7 @@ python ruta_optima_españa.py
  
 ---
 
-## 💵 Cálculo del Costo de Bencina
+## Cálculo del Costo de Bencina
 
 > Costo estimado para recorrer la ruta en auto particular.
 
